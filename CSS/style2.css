@@ -1,0 +1,185 @@
+body {
+  background-color: #b76e79;
+  margin: 0;
+  font-family: 'Neuton', serif;
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+#navbarTogglerDemo01 a:hover{
+  color:#ffc300;
+
+}
+
+#navbarTogglerDemo01{padding: 0 20px;
+font-size: 1.2rem;}
+
+.navbar-brand {
+  font-size: 2rem;
+  color:#ffc300;
+}
+
+
+.primaPagina {
+  /*padding: 30px;*/
+  background-color: #f59aa3;
+  width: 100%;
+
+
+}
+
+.primaPagina:hover .img {
+  opacity: 0.3;
+  height: 100%;
+}
+
+.primaPagina:hover .intrebare {
+  opacity: 1;
+}
+
+
+  .intrebare {
+    color: #360982;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    /*position: relative;
+    top: -155px;
+    left: 30px;*/
+    /* font-size: 5vw; */
+    font-family: 'Kaushan Script', cursive;
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.i {
+  text-shadow: 5px 2px 8px #FF0000;
+  display: inline;
+}
+
+.img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility:visible;
+  /*position: relative;
+  top: 30px;
+  right: -600px;*/
+  border-radius: -100%;
+  width: 100%;
+}
+
+
+
+.frumusete {float: right;
+border-radius: 50%;
+height: 69%;}
+
+.frumusete-text {
+  float: right;
+}
+
+.motive {
+  background-color: #f5e4c3;
+  width: 100%;
+  height: auto;
+}
+
+.motive-concl {
+  color: black;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0 0 3px #FF0000;
+  background-color: #f5e4c3;
+  width: 100%;
+  height: auto;
+}
+
+.nasol {
+  background-color: grey;
+  color: black;
+  padding: 20px 0 20px 0;
+}
+
+.tabel {
+}
+
+.suflet {
+  width: 40%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.desteapta {
+  width: 42%;
+  height: 78%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desteapta-txt {
+  text-align: center;
+}
+
+.frmusete {
+  width: 40%;
+  height: 80%;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.isto {
+  background: #ffcccc;
+  margin: 0;
+  height: auto;
+  color: #6b76ff;
+}
+
+.ul {
+  margin: 0;
+}
+
+.formulare {
+  background: black;
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+
+ol {
+  margin: 0;
+}
+
+.formulare a:hover {
+  color: red;
+}
+
+.formulare-link {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.footer-bottom {
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+}
